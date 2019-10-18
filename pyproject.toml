@@ -7,7 +7,7 @@ line_length = 88
 
 [tool.poetry]
 name = "refreeze-scripts"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = [
     "lambdalisue <lambdalisue@fixpoint.co.jp>",
