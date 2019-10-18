@@ -8,12 +8,19 @@ line_length = 88
 [tool.poetry]
 name = "refreeze-scripts"
 version = "0.1.1"
-description = ""
+description = "Rewrite EXE files in Scripts directory on Windows"
+license = "MIT"
 authors = [
     "lambdalisue <lambdalisue@fixpoint.co.jp>",
     "Fixpoint <developer@fixpoint.co.jp>"
 ]
 readme = "README.md"
+homepage = "https://github.com/fixpoint/refreeze-scripts"
+repository = "https://github.com/fixpoint/refreeze-scripts"
+keywords = ["Windows", "pip", "setuptools"]
+classifiers = [
+    "Topic :: Software Development :: Build Tools",
+]
 
 [tool.poetry.scripts]
 "refreeze-scripts" = "refreeze_scripts.cli:main"
