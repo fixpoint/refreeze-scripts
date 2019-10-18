@@ -13,6 +13,7 @@ authors = [
     "lambdalisue <lambdalisue@fixpoint.co.jp>",
     "Fixpoint <developer@fixpoint.co.jp>"
 ]
+readme = "README.md"
 
 [tool.poetry.scripts]
 "refreeze-scripts" = "refreeze_scripts.cli:main"
