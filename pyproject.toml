@@ -7,7 +7,7 @@ line_length = 88
 
 [tool.poetry]
 name = "refreeze-scripts"
-version = "0.1.1"
+version = "0.1.2"
 description = "Rewrite EXE files in Scripts directory on Windows"
 license = "MIT"
 authors = [
