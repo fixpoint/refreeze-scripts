@@ -9,11 +9,8 @@ line_length = 88
 name = "refreeze-scripts"
 version = "0.1.2"
 description = "Rewrite EXE files in Scripts directory on Windows"
+authors = ["Fixpoint, Inc. <developer@fixpoint.co.jp>"]
 license = "MIT"
-authors = [
-    "lambdalisue <lambdalisue@fixpoint.co.jp>",
-    "Fixpoint <developer@fixpoint.co.jp>"
-]
 readme = "README.md"
 homepage = "https://github.com/fixpoint/refreeze-scripts"
 repository = "https://github.com/fixpoint/refreeze-scripts"
@@ -33,13 +30,9 @@ typing-extensions = "^3.7.4"
 [tool.poetry.dev-dependencies]
 isort = "^4.3"
 mypy = "^0.730.0"
-pytest = "^5.2"
-pytest-asyncio = "^0.10.0"
-pytest-cov = "^2.8"
-pytest-mock = "^1.11"
-pytest-xdist = "^1.30"
-black = {version = "^18.3-alpha.0", allows-prereleases = true}
+black = "^19.10b0"
+autoflake = "^1.3.1"
 
 [build-system]
-requires = ["poetry>=0.12"]
+requires = ["poetry>=1.0.0b9"]
 build-backend = "poetry.masonry.api"
